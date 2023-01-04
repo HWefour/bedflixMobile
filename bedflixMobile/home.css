@@ -1,0 +1,204 @@
+.big-image{
+    background: url(./images/Rectangle\ 10.png) no-repeat;
+    background-size: 100%;
+    height: 351px;
+}
+.logo{
+    left: 10px;
+    top: 10px;
+    position: absolute;
+} 
+.lecture{
+    display: flex;
+    justify-content: center;
+    top: 330px;
+    position: relative;
+    z-index: 1;
+}
+.background{
+    background: url(./images/Rectangle\ 12.png)no-repeat;
+    background-size: 100%;
+    height: 300px;
+    top: -55px;
+    position: relative;
+    z-index: 0;
+}
+.serieM{
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    top: 80px;
+    position: relative;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+.wrapperMobile {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.wrapperMobile section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    margin: 20px 0;
+}
+
+.wrapperMobile section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+}
+.wrapperMobile section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+.wrapperMobile section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    background: #000;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+.wrapperMobile section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.wrapperMobile section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+h1{
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    position: relative;
+    
+} 
+.img-slider{
+    top: 80px;
+    position: relative;
+}
+/* Deuxieme carousel*/
+.wrapperMobile2 {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.wrapperMobile2 section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    margin: 20px 0;
+}
+
+.wrapperMobile2 section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+}
+.wrapperMobile2 section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+.wrapperMobile2 section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    background: #000;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+.wrapperMobile2 section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.wrapperMobile2 section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.h1Film{
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    position: inherit;
+}
+/*Carousel 3 */
+.wrapperMobile3 {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.wrapperMobile3 section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    margin: 20px 0;
+}
+
+.wrapperMobile3 section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+}
+.wrapperMobile3 section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+.wrapperMobile3 section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    background: #000;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+.wrapperMobile3 section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.wrapperMobile3 section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.exclu{
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    position: inherit;
+}
